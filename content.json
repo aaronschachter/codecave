@@ -1,7 +1,13 @@
 {
     "about": {
-        "title": "Welcome to the code",
-        "description": "This is a an online code cave, for writing code."
+        "title": "Hello, world?",
+        "description": "This is an online code cave, for writing code."
+    },
+    "palindrome": {
+        "title": "Check if a string is a palindrome",
+        "description": "Should ignore characters and spaces.",
+        "code": "
+        $string = 'A Man, A Plan, A Canal, Panama!';"
     },
     "reverse-list": {
         "title": "Reverse a linked list",
@@ -16,6 +22,8 @@
     },
     "sort-array": {
         "title": "Sort an unsorted array",
-        "description": "Write an algorithm to sort an unordered array."
+        "description": "Write an algorithm to sort an unordered array.",
+        "code": "
+        $unsorted = array(214, 923, 19123, 12, 90, 324, 20);"
     }
 }

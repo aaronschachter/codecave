@@ -7,6 +7,9 @@ include 'includes/LinkedList.php';
 $head = getLinkedList(array('abc', 'def', 'ghi'));
 $pages = json_decode(file_get_contents("content.json"), TRUE);
 $current_path = ltrim($_SERVER['REQUEST_URI'], '/');
+if (empty($current_path)) {
+  $current_path = 'about';
+}
 $content = $pages[$current_path];
 ?>
 </head>
