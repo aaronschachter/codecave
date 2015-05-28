@@ -1,0 +1,10 @@
+application: banded-water-95802
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /list.*
+  script: list.php
+- url: /.*
+  script: helloworld.php
