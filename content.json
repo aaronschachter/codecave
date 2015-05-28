@@ -1,0 +1,21 @@
+{
+    "about": {
+        "title": "Welcome to the code",
+        "description": "This is a an online code cave, for writing code."
+    },
+    "reverse-list": {
+        "title": "Reverse a linked list",
+        "description": "Write a function to reverse a linked list.",
+        "code": "
+        $head = getLinkedList(array(14, 23, 123, 2, 90, 24));
+        printLinkedList($head);"
+    },
+    "reverse-string": {
+        "title": "Reverse a string",
+        "description": "Write a function to reverse a string in place."
+    },
+    "sort-array": {
+        "title": "Sort an unsorted array",
+        "description": "Write an algorithm to sort an unordered array."
+    }
+}

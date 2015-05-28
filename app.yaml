@@ -4,7 +4,5 @@ runtime: php55
 api_version: 1
 
 handlers:
-- url: /list.*
-  script: list.php
 - url: /.*
-  script: reverse.php
+  script: page.php
