@@ -1,6 +1,9 @@
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<?php include 'includes/LinkedList.php'; ?>
+<?php
+include 'includes/LinkedList.php';
+$head = getLinkedList(array('abc', 'def', 'ghi'));
+?>
 </head>
 <html>
   <body>
@@ -30,6 +33,11 @@
         <div class="starter-template">
           <h1>Reverse a linked list</h1>
           <p class="lead">Write a function to reverse a linked list.</p>
+          <pre>
+
+            $head = getLinkedList(array('abc', 'def', 'ghi'));
+            printLinkedList($head);
+          </pre>
         </div>
 
       <?php include 'editor.php'; ?>

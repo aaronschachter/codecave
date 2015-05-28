@@ -28,8 +28,8 @@ function getLinkedList($values = array()) {
   return $head;
 }
 
-function printLinkedList($values = array()) {
-  $current = getLinkedList($values);
+function printLinkedList($head) {
+  $current = $head;
   $output = $current->value . '<br />';
   while ($next = $current->next) {
     $output .= $next->value . '<br />';
