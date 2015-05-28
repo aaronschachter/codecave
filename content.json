@@ -7,14 +7,16 @@
         "title": "Check if a string is a palindrome",
         "description": "Should ignore characters and spaces.",
         "code": "
-        $string = 'A Man, A Plan, A Canal, Panama!';"
+        $string = 'A Man, A Plan, A Canal, Panama!';
+        "
     },
     "reverse-list": {
         "title": "Reverse a linked list",
         "description": "Write a function to reverse a linked list.",
         "code": "
         $head = getLinkedList(array(14, 23, 123, 2, 90, 24));
-        printLinkedList($head);"
+        printLinkedList($head);
+        "
     },
     "reverse-string": {
         "title": "Reverse a string",
@@ -24,6 +26,7 @@
         "title": "Sort an unsorted array",
         "description": "Write an algorithm to sort an unordered array.",
         "code": "
-        $unsorted = array(214, 923, 19123, 12, 90, 324, 20);"
+        $unsorted = array(214, 923, 19123, 12, 90, 324, 20);
+        "
     }
 }

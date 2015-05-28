@@ -13,9 +13,7 @@
   <div class="col-xs-6">
     <h3>Output</h3>
     <?php if (array_key_exists('content', $_POST)): ?>
-      <pre>
-        <?php print eval($_POST['content']); ?>
-      </pre>
+      <pre><?php print eval($_POST['content']); ?></pre>
     <?php endif; ?>
   </div>
 </div>

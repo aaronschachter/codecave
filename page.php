@@ -52,7 +52,9 @@ $content = $pages[$current_path];
           <?php endif; ?>
           <?php if (isset($content['code'])): ?>
             Starter code:
-            <pre><?php print $content['code']; ?></pre>
+            <pre>
+              <?php print $content['code']; ?>
+            </pre>
           <?php endif; ?>
         </div>
 
