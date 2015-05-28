@@ -32,20 +32,7 @@
           <p class="lead">Write a function to reverse a linked list.</p>
         </div>
 
-        <?php if (array_key_exists('content', $_POST)): ?>
-          <pre><?php print eval($_POST['content']); ?></pre>
-        <?php endif; ?>
-
-        <form action="" method="post" role="form">
-          <div class="form-group">
-            <textarea name="content" class="form-control" rows="10">
-            <?php print trim($_POST['content']); ?>
-            </textarea>
-          </div>
-          <div>
-            <button type="submit" class="btn btn-default">Execute PHP</button>
-          </div>
-        </form>
+      <?php include 'editor.php'; ?>
 
     </div>
 
