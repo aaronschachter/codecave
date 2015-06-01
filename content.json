@@ -3,6 +3,9 @@
         "title": "Hello, world?",
         "description": "This is an online code cave, for writing code."
     },
+    "bst": {
+        "title": "Create a BST from a sorted array"
+    },
     "palindrome": {
         "title": "Check if a string is a palindrome",
         "description": "Should ignore characters and spaces.",

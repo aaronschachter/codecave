@@ -3,6 +3,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <?php
+include 'includes/BinarySearchTree.php';
 include 'includes/LinkedList.php';
 $head = getLinkedList(array('abc', 'def', 'ghi'));
 $pages = json_decode(file_get_contents("content.json"), TRUE);
@@ -24,7 +25,7 @@ $content = $pages[$current_path];
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="about">Lebowski Code</a>
+            <a class="navbar-brand" href="about">Codecave</a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -58,7 +59,7 @@ $content = $pages[$current_path];
           <?php endif; ?>
         </div>
 
-      <?php if ($current_path != 'about'): include 'editor.php'; endif; ?>
+      <?php include 'editor.php';  ?>
 
     </div>
 
