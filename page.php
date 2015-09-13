@@ -5,6 +5,7 @@
 <?php
 include 'includes/BinarySearchTree.php';
 include 'includes/LinkedList.php';
+include 'includes/Rectangle.php';
 $head = getLinkedList(array('abc', 'def', 'ghi'));
 $pages = json_decode(file_get_contents("content.json"), TRUE);
 $current_path = ltrim($_SERVER['REQUEST_URI'], '/');

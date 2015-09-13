@@ -13,6 +13,14 @@
         $string = 'A Man, A Plan, A Canal, Panama!';
         "
     },
+    "rectangle": {
+        "title": "Find the intersection of two rectangles",
+        "code": "
+        // Rectangle (x, y, width, height)
+        $square1 = new Rectangle(4, 10, 20, 30);
+        print_r(get_object_vars($square1));
+        "
+    },
     "reverse-list": {
         "title": "Reverse a linked list",
         "description": "Write a function to reverse a linked list.",
